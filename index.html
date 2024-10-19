@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/verdana-bold" rel="stylesheet">      
+                
+</head>
+<body>
+    <h1>Basketball Score Board: </h1>
+    <div class="flexboxBall">
+        <div id="homecss">
+            <h2>HOME</h2>
+            <h2 id="home-score">0</h2>
+            <button onclick="home1()">+1</button>
+            <button onclick="home2()">+2</button>
+            <button onclick="home3()">+3</button>
+        </div>
+
+        <div id="guestcss">
+            <h2>GUEST</h2>
+            <h2 id="guest-score">0</h2>
+            <button onclick="guest1()">+1</button>
+            <button onclick="guest2()">+2</button>
+            <button onclick="guest3()">+3</button>
+        </div>
+
+    </div>
+    <button id="reset-el">REST ⟳</button>
+    <script src="index.js"></script>
+</body>
+</html>
